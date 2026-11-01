@@ -1,0 +1,11 @@
+.env
+.env.*
+.git
+node_modules
+.tools
+dist
+*.zip
+*.tar.gz
+data
+
+.settings-*

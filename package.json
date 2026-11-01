@@ -1,0 +1,19 @@
+{
+  "name": "klindt-dashboard",
+  "version": "2.2.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/http.mjs",
+    "test": "node --test server/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "node-ical": "0.27.3",
+    "qrcode": "1.5.4",
+    "rss-parser": "3.13.0",
+    "temporal-polyfill": "1.0.6"
+  }
+}
